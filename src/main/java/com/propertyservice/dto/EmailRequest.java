@@ -32,5 +32,16 @@ public class EmailRequest {
         this.body = body;
     }
 
+    @Override
+    public String toString() {
+        return "EmailRequest{" +
+                "to='" + to + '\'' +
+                ", subject='" + subject + '\'' +
+                ", body='" + body + '\'' +
+                '}';
+    }
 
+    public EmailRequest() {
+        super();
+    }
 }
